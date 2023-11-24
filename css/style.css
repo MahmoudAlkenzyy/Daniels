@@ -172,3 +172,19 @@ h6 {
 #portfolio .inner h6 {
     transition: 0.4s;
 }
+/*testimonials Section*/
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px 12px 0 0;
+    background-color: #869791 !important;
+}
+#testimonials img {
+    width: 100px;
+}
+
+#testimonials span.cursore-p {
+    font-size: 12px;
+}
+/*counter*/
