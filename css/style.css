@@ -110,3 +110,65 @@ h6 {
 #services .inner p {
     font-size: 14px;
 }
+/*Portfolio Section*/
+#portfolio button {
+    border: 1px;
+    transition: 0.4s;
+
+    position: relative;
+}
+#portfolio button::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    z-index: -1;
+}
+
+#portfolio .active::after {
+    width: 100%;
+}
+
+#portfolio .layer h6 {
+    font-size: 13px;
+}
+#portfolio .layer-btn a {
+    text-decoration: none;
+}
+#portfolio .layer-btn i {
+    display: flex;
+    transition: 0.4s;
+    transition-property: background border color;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio .layer-btn i:hover {
+    background: white !important;
+    border: #000 solid 1px;
+    color: #000;
+}
+#portfolio .layer {
+    opacity: 0;
+    transition: 0.4s;
+    bottom: -10px;
+    row-gap: 30px;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+}
+#portfolio .inner:hover .layer {
+    opacity: 0.8;
+    bottom: 5px;
+    row-gap: 20px;
+}
+#portfolio .inner h6 {
+    transition: 0.4s;
+}
