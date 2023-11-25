@@ -188,3 +188,23 @@ h6 {
     font-size: 12px;
 }
 /*counter*/
+
+#counter i {
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    transition: 0.5s ease;
+    padding: 1rem 2rem;
+}
+.container h3 {
+    font-weight: 900;
+    font-size: 30px;
+}
+.container p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
