@@ -10,6 +10,38 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
 }
+/*Nav Section*/
+
+.nav .active {
+    position: relative;
+}
+.nav .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0.6rem;
+    width: 0%;
+    height: 3px;
+    background-color: #000;
+    transition: 0.4s width;
+}
+.navbar-nav li {
+    margin: 0;
+    position: relative;
+}
+.navbar-nav li a {
+    color: rgb(90, 88, 88) !important;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.navbar-nav li a:hover {
+    color: rgb(20, 20, 20);
+}
+.nav .active::before,
+.navbar-nav li:hover .nav-link::before {
+    width: 60%;
+}
+/*Home Section*/
 #home {
     background: linear-gradient(#000a, #000a), url(./../imgs/bg.jpg);
     background-size: cover;
@@ -222,6 +254,7 @@ h6 {
     right: 5px;
     background-color: white;
     opacity: 0;
+    cursor: pointer;
 }
 #our-team .card .layer a {
     color: white;
@@ -274,6 +307,10 @@ h6 {
 #contact i:hover {
     color: white;
     background-color: #000 !important;
+}
+#contact :is(input, textarea) {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0) !important;
+    border: 0 !important;
 }
 /* #contact .btn-s {
     background-color: #212529;

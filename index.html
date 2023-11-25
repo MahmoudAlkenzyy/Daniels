@@ -9,7 +9,71 @@
         <link rel="stylesheet" href="./css/style.css" />
         <title>Daniels</title>
     </head>
-    <body>
+    <body
+        data-bs-spy="scroll"
+        data-bs-target="#navbar"
+        data-bs-offset="0"
+        class="scrollspy-example"
+    >
+        <!-------------------- Start Nav Section ------------------>
+        <nav id="navbar" class="navbar bg-white fixed-top navbar-expand-lg">
+            <div class="container py-1">
+                <h2>
+                    <a class="navbar-brand fw-bolder" href="#">DANIELS </a>
+                </h2>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="navbarNavAltMarkup"
+                >
+                    <div class="navbar-nav">
+                        <ul
+                            class="nav bg-transparent gap-3 p-0 flex-column flex-lg-row align-items-center text-uppercase fs-6"
+                            role="tablist"
+                        >
+                            <li>
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials"
+                                    >Clients</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#our-team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-------------------- End Nav Section ------------------>
         <!-------------------- Start Home Section ------------------>
 
         <header id="home" class="position-relative">
@@ -381,6 +445,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-1"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -417,6 +483,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-2"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -453,6 +521,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-3"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -489,6 +559,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-4"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -523,8 +595,10 @@
                                                 </a>
 
                                                 <a
-                                                    href="img/portfolio/1.jpg"
+                                                    href=""
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-5"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -561,6 +635,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-6"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -607,6 +683,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-4"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -643,6 +721,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-6"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -687,8 +767,10 @@
                                                 </a>
 
                                                 <a
-                                                    href="img/portfolio/2.jpg"
+                                                    href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-2"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -723,8 +805,10 @@
                                                 </a>
 
                                                 <a
-                                                    href="img/portfolio/5.jpg"
+                                                    href=""
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-5"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -771,6 +855,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-1"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -807,6 +893,8 @@
                                                 <a
                                                     href="img/portfolio/1.jpg"
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-3"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -841,8 +929,10 @@
                                                 </a>
 
                                                 <a
-                                                    href="img/portfolio/1.jpg"
+                                                    href=""
                                                     class="text-white"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#portfolio-5"
                                                 >
                                                     <i
                                                         class="fa fa-search-plus p-2 bg-black rounded-circle"
@@ -1308,6 +1398,110 @@
             </div>
         </footer>
         <!-------------------- End Footer Section ------------------>
+        <div class="modals">
+            <div
+                class="modal fade"
+                id="portfolio-1"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <img
+                            src="./imgs/portfolio/1.jpg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+            <div
+                class="modal fade"
+                id="portfolio-2"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <img
+                            src="./imgs/portfolio/2.jpg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+            <div
+                class="modal fade"
+                id="portfolio-3"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <img
+                            src="./imgs/portfolio/3.jpg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+            <div
+                class="modal fade"
+                id="portfolio-4"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <img
+                            src="./imgs/portfolio/4.jpg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+            <div
+                class="modal fade"
+                id="portfolio-5"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <img
+                            src="./imgs/portfolio/5.jpg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+            <div
+                class="modal fade"
+                id="portfolio-6"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <img
+                            src="./imgs/portfolio/6.jpg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="./js/bootstrap.bundle.min.js"></script>
         <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
         <script>
