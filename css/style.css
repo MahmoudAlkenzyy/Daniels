@@ -187,6 +187,12 @@ h6 {
 #testimonials span.cursore-p {
     font-size: 12px;
 }
+#testimonials p {
+    word-spacing: 80%;
+    max-width: 1000px;
+    font-weight: 400;
+    font-size: 15px;
+}
 /*counter*/
 
 #counter i {
@@ -260,4 +266,27 @@ h6 {
 }
 #our-team .card .card-img-top:hover img {
     transform: scale(1.2, 1.2);
+}
+/*Contact Section*/
+#contact i {
+    transition: 0.4s;
+}
+#contact i:hover {
+    color: white;
+    background-color: #000 !important;
+}
+/* #contact .btn-s {
+    background-color: #212529;
+    color: white;
+}
+#contact .btn-s:hover {
+    border: #212529 1px solid;
+} */
+.btn-s {
+    background-color: #212529;
+    color: white;
+    font-size: 13px;
+}
+.btn-s:hover {
+    border: #212529 1px solid;
 }
